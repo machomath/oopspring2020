@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1580337839 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\class1\src\date1.cpp
+	<iostream>
+	"Date1.h"
+
+1580337228 c:\users\dr. zeb\desktop\cpp\oopspring2020\class1\include\date1.h
+
+1580337470 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\class1\main.cpp
+	<iostream>
+	"date1.h"
+
