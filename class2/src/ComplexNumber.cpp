@@ -102,3 +102,17 @@ ComplexNumber ComplexNumber::divComplexNumber(ComplexNumber b)
     }
 }
 
+bool ComplexNumber::operator == (ComplexNumber b)
+{
+    if (x==b.getX()&& y==b.getY())
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+
+
+}
+
