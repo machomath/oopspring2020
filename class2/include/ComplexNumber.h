@@ -16,6 +16,8 @@ class ComplexNumber
         ComplexNumber operator + (ComplexNumber);
         ComplexNumber operator - (ComplexNumber);
         ComplexNumber& operator += (ComplexNumber);
+        bool operator == (ComplexNumber);
+        bool operator != (ComplexNumber);
 
         ComplexNumber sumComplexNumber(ComplexNumber);
         ComplexNumber subComplexNumber(ComplexNumber);

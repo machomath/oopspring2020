@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1580943499 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\class2\main.cpp
+1581375265 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\class2\main.cpp
 	<iostream>
 	"ComplexNumber.h"
 
-1581374523 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\class2\src\complexnumber.cpp
+1581718458 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\class2\src\complexnumber.cpp
 	<iostream>
 	<cmath>
 	"ComplexNumber.h"
 
-1581374471 c:\users\dr. zeb\desktop\cpp\oopspring2020\class2\include\complexnumber.h
+1581717993 c:\users\dr. zeb\desktop\cpp\oopspring2020\class2\include\complexnumber.h
 

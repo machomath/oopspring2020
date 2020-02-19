@@ -116,3 +116,10 @@ bool ComplexNumber::operator == (ComplexNumber b)
 
 }
 
+
+bool ComplexNumber::operator != (ComplexNumber b)
+{
+    return !(*this == b);
+}
+
+
