@@ -14,6 +14,9 @@ class Date2
         Date2& setDayPub(int);
         Date2& setMonthPub(int);
         Date2& setYearPub(int);
+        bool operator ==(Date2);
+        bool operator !=(Date2);
+        Date2& operator ++();//prefix ++
 
     protected:
 

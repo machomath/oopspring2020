@@ -77,13 +77,63 @@ Date2& Date2::setAll(int d, int m, int y)
 
 Date2& Date2::setDayPub(int d)
 {
+    setDay(d);
     return *this;
 }
+
 Date2& Date2::setMonthPub(int m)
 {
-    return *this;
+    int leapAdj = (year%4 == 0 && m == 2 ) ? 1 : 0;
+    if(m >= 1 && m <= 12 && day <= daysInMonth[m-1] + leapAdj){
+        month = m;
+        return *this;
+    }else{
+        throw "Invalid Month";
+    }
+
 }
+/*
 Date2& Date2::setYearPub(int y)
 {
+    try{
+        setYear(y);
+        setMonth(month);
+        setDay(day);
+        return *this;
+    }catch(const char* e){
+        throw e;
+    }
+}
+*/
+
+Date2& Date2::setYearPub(int y)
+{
+    if(month == 2 && day == 29 && y%4 != 0){
+        throw "Invalid year";
+    }else{
+        year = y;
+        return *this;
+    }
+}
+
+bool Date2::operator ==(Date2 rhs)
+{
+     if(day == rhs.getDay() && month ==rhs.getMonth() && year == rhs.getYear()){
+        return true;
+     }else{
+        return false;
+     }
+
+}
+
+bool Date2::operator !=(Date2 rhs)
+{
+    return !(*this == rhs);
+}
+
+Date2& Date2::operator ++()
+{
+    ++day;
     return *this;
 }
+
