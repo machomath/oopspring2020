@@ -131,9 +131,37 @@ bool Date2::operator !=(Date2 rhs)
     return !(*this == rhs);
 }
 
-Date2& Date2::operator ++()
+Date2& Date2::operator ++()//prefix ++
 {
-    ++day;
+    int leapAdj = (year%4 == 0 && month == 2 ) ? 1 : 0;
+
+    if(month == 12 && day == 31){
+        day = 1;
+        month = 1;
+        year++;
+    }else if(day == daysInMonth[month-1] + leapAdj){
+        day = 1;
+        month++;
+    }else{
+        day++;
+    }
     return *this;
 }
 
+Date2 Date2::operator ++(int)//postfix ++
+{
+    Date2 tmp = *this;
+    ++(*this);
+    return tmp;
+}
+
+Date2& Date2::printDate()
+{
+    cout << monthNames[month-1] << " " << day << ", " << year << endl;
+    return *this;
+}
+
+Date& Date2::operator +(unsigned int addDays) // we need to add these many days
+{
+    return *this;
+}

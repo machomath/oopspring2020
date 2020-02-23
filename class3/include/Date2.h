@@ -17,6 +17,9 @@ class Date2
         bool operator ==(Date2);
         bool operator !=(Date2);
         Date2& operator ++();//prefix ++
+        Date2 operator ++(int);//postfix ++
+        Date2& printDate();
+        Date2& operator +(unsigned int);//as many days we want to inc
 
     protected:
 
@@ -28,6 +31,7 @@ class Date2
         void setMonth(int);
         void setYear(int);
         int daysInMonth[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        string monthNames[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"};
 
 };
 
