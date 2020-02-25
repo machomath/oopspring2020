@@ -161,7 +161,51 @@ Date2& Date2::printDate()
     return *this;
 }
 
-Date& Date2::operator +(unsigned int addDays) // we need to add these many days
+Date2& Date2::operator --()//prefix --
 {
+    //HW
     return *this;
+}
+Date2 Date2::operator --(int)//postfix
+{
+    Date2 temp = *this;
+    //HW
+    return temp;
+}
+
+Date2 Date2::operator +(unsigned int addDays) // we need to add these many days
+{
+    for(int i = 0; i < addDays; i++){
+        ++(*this);
+    }//not the best code
+    return *this;
+}
+
+Date2& Date2::operator +=(unsigned int addDays)
+{
+    *this = *this + addDays;
+    return *this;
+}
+
+Date2 Date2::operator -(unsigned int subDays)
+{
+        //HW
+        return *this;
+}
+
+int Date2::operator - (Date2 secDate)
+{
+    //HW
+    return 0;
+}
+
+void printShort(Date2 aDate)//this is a friend function so no scope resolution
+{
+    cout << aDate.month << "-" << aDate.day << "-" << aDate.year << endl;
+}
+
+ostream& operator << (ostream& output, const Date2 aDate)
+{
+    output << aDate.month << "-" << aDate.day << "-" << aDate.year << endl;
+    return output;
 }

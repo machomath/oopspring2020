@@ -12,7 +12,13 @@ int main()
     try{
         //int i = 20;//we were learning scope
         //cout << i << endl; //we were learning scope
-        Date2 myBD(28, 2, 2021);
+        Date2 myBD(28, 2, 2020);
+        cout << myBD << endl;
+        cout << "++++++++++++++++" << endl;
+        //myBD.printShort();//SInce not a member function so cannot be used like this
+        printShort(myBD);
+        cout << "----------------" << endl;
+        myBD = myBD + 10;
         myBD.printDate().setYearPub(2020).printDate();
         ((++myBD).printDate()++).printDate();
         cout << "----------------" << endl;
