@@ -4,6 +4,7 @@
 using namespace std;
 
 Date2::Date2(int d, int m, int y)
+
 {
     try{
         setAll(d, m, y);

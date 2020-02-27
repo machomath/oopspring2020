@@ -1,12 +1,17 @@
 # depslib dependency file v1.0
-1582582307 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\class3\main.cpp
+1582584214 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\class3\main.cpp
 	<iostream>
 	"Date2.h"
 
-1582584516 c:\users\dr. zeb\desktop\cpp\oopspring2020\class3\include\date2.h
+1582745513 c:\users\dr. zeb\desktop\cpp\oopspring2020\class3\include\date2.h
 	<iostream>
 
-1582584173 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\class3\src\date2.cpp
+1582584597 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\class3\src\date2.cpp
 	<iostream>
 	"Date2.h"
+
+1582584669 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\class3\src\time2.cpp
+	"Time2.h"
+
+1582744371 c:\users\dr. zeb\desktop\cpp\oopspring2020\class3\include\time2.h
 

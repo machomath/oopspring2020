@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1582757541 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\defaultconststatic\main.cpp
+	<iostream>
+	"Time2.h"
+
+1582757682 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\defaultconststatic\src\time2.cpp
+	"Time2.h"
+
+1582757467 c:\users\dr. zeb\desktop\cpp\oopspring2020\defaultconststatic\include\time2.h
+	<iostream>
+

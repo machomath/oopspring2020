@@ -11,6 +11,9 @@ class Time2
     protected:
 
     private:
+        int hour;
+        int minute;
+        int second;
 };
 
 #endif // TIME2_H
