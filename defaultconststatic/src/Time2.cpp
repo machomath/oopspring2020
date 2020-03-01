@@ -1,8 +1,9 @@
 #include "Time2.h"
-
+int Time2::counter = 0;
 Time2::Time2(int h, int m, int s, string n)
 :name(n)//this is how we need to initialize the const members
 {
+    counter++;
     try{
         setHour(h).setMinute(m).setSecond(s);
     }catch(const char * e){
@@ -12,7 +13,7 @@ Time2::Time2(int h, int m, int s, string n)
 
 Time2::~Time2()
 {
-
+    counter--;
 }
 
 int Time2::getHour() const
@@ -33,6 +34,11 @@ int Time2::getSecond() const
 string Time2::getName() const
 {
     return name;
+}
+
+int Time2::getCounter()
+{
+    return counter;
 }
 
 Time2& Time2::setHour(int h)

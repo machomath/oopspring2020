@@ -14,6 +14,7 @@ class Time2
         int getMinute() const;
         int getSecond() const;
         string getName() const;
+        static int getCounter();
         Time2& setHour(int);
         Time2& setMinute(int);
         Time2& setSecond(int);
@@ -25,6 +26,8 @@ class Time2
         int minute;
         int second;
         const string name;//const object of a class
+        static int counter;
+
 };
 
 #endif // TIME2_H
