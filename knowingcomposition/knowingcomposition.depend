@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1583284405 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowingcomposition\main.cpp
+	<iostream>
+	"Time2.h"
+	"Date2.h"
+	"DateTime2.h"
+
+1583193332 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowingcomposition\src\time2.cpp
+	"Time2.h"
+
+1583193324 c:\users\dr. zeb\desktop\cpp\oopspring2020\knowingcomposition\include\time2.h
+	<iostream>
+
+1583191971 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowingcomposition\src\date2.cpp
+	<iostream>
+	"Date2.h"
+
+1583190785 c:\users\dr. zeb\desktop\cpp\oopspring2020\knowingcomposition\include\date2.h
+	<iostream>
+
+1583192905 c:\users\dr. zeb\desktop\cpp\oopspring2020\knowingcomposition\include\datetime2.h
+	"Date2.h"
+	"Time2.h"
+
+1583284223 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowingcomposition\src\datetime2.cpp
+	"DateTime2.h"
+

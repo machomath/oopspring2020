@@ -12,6 +12,7 @@ int main()
         x += 10;
         cout << x << endl;
         ComplexNumber z1(2.5, 2.5), z2(2.5, 2.5);
+        z1.setX(23).setY(40);
         if(z1 != z2){
             cout << "They are not eq" << endl;
         }else{
