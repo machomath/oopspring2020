@@ -29,3 +29,8 @@ bool DateTime2::operator == (DateTime2 rhs)
         return false;
     }
 }
+
+bool DateTime2::operator != (DateTime2 rhs)
+{
+    return !(*this == rhs);
+}

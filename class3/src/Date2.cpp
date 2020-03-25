@@ -164,7 +164,17 @@ Date2& Date2::printDate()
 
 Date2& Date2::operator --()//prefix --
 {
-    //HW
+    int leapAdj = (year%4 == 0 && month == 2 ) ? 1 : 0;
+    if(day == 1 && month == 1){
+        day = 31;
+        month = 12;
+        year--;
+    }else if(day == 1){
+        month--;
+        day = daysInMonth[month-1] + leapAdj;
+    }else{
+        day--;
+    }
     return *this;
 }
 Date2 Date2::operator --(int)//postfix
