@@ -4,6 +4,7 @@ Student::Student(string sn, Gender sg)
 {
     studentName = sn;
     studentGender = sg;
+    cout << "Testing: Student Constructor Runs" << endl;
 }
 
 Student::~Student()
