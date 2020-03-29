@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1585495598 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\subjectsandstudents\main.cpp
+	<iostream>
+	"Student.h"
+	"GradStudent.h"
+	"UndergradStudent.h"
+
+1585495858 c:\users\dr. zeb\desktop\cpp\oopspring2020\subjectsandstudents\include\student.h
+	<iostream>
+
+1585495979 c:\users\dr. zeb\desktop\cpp\oopspring2020\subjectsandstudents\include\gradstudent.h
+	"Student.h"
+
+1585496141 c:\users\dr. zeb\desktop\cpp\oopspring2020\subjectsandstudents\include\undergradstudent.h
+	"Student.h"
+
+1585496341 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\subjectsandstudents\src\gradstudent.cpp
+	"GradStudent.h"
+
+1585496350 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\subjectsandstudents\src\student.cpp
+	"Student.h"
+
+1585496280 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\subjectsandstudents\src\undergradstudent.cpp
+	"UndergradStudent.h"
+
