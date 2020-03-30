@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1585608630 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance\main.cpp
+	<iostream>
+	"Grand.h"
+	"ParentChildOfGrand.h"
+
+1585608435 c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance\include\grand.h
+	<iostream>
+
+1585608549 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance\src\grand.cpp
+	"Grand.h"
+
+1585608098 c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance\include\parentchildofgrand.h
+	<iostream>
+	"Grand.h"
+
+1585608386 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance\src\parentchildofgrand.cpp
+	"ParentChildOfGrand.h"
+
