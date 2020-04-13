@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1585781163 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance2\main.cpp
+	<iostream>
+	"Grand.h"
+	"ParentChildOfGrand.h"
+	"Parent2ChilsOfGrand.h"
+	"ChildClass.h"
+
+1585779452 c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance2\include\grand.h
+	<iostream>
+
+1585779529 c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance2\include\parentchildofgrand.h
+	<iostream>
+	"Grand.h"
+
+1585779430 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance2\src\grand.cpp
+	"Grand.h"
+
+1585779546 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance2\src\parentchildofgrand.cpp
+	"ParentChildOfGrand.h"
+
+1585780786 c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance2\include\parent2chilsofgrand.h
+	"Grand.h"
+
+1585780683 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance2\src\parent2chilsofgrand.cpp
+	"Parent2ChilsOfGrand.h"
+
+1585781414 c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance2\include\childclass.h
+	"Parent2ChilsOfGrand.h"
+
+1585781431 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\knowinginheritance2\src\childclass.cpp
+	"ChildClass.h"
+

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1585954526 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\privateinheritance\main.cpp
+	<iostream>
+	"AA.h"
+	"BB.h"
+
+1585954266 c:\users\dr. zeb\desktop\cpp\oopspring2020\privateinheritance\include\aa.h
+
+1585954609 c:\users\dr. zeb\desktop\cpp\oopspring2020\privateinheritance\include\bb.h
+	"AA.h"
+	<iostream>
+
+1585954295 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\privateinheritance\src\aa.cpp
+	"AA.h"
+
+1585954462 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\privateinheritance\src\bb.cpp
+	"BB.h"
+

@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1586818589 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\virtualandfinal\main.cpp
+	<iostream>
+	"AA.h"
+	"BB1.h"
+	"BB2.h"
+	"CC1.h"
+
+1586818530 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\virtualandfinal\src\aa.cpp
+	"AA.h"
+
+1586818538 c:\users\dr. zeb\desktop\cpp\oopspring2020\virtualandfinal\include\aa.h
+	<iostream>
+
+1586817541 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\virtualandfinal\src\bb2.cpp
+	"BB2.h"
+
+1586817548 c:\users\dr. zeb\desktop\cpp\oopspring2020\virtualandfinal\include\bb2.h
+	<iostream>
+	"AA.h"
+
+1586817979 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\virtualandfinal\src\cc1.cpp
+	"CC1.h"
+
+1586817971 c:\users\dr. zeb\desktop\cpp\oopspring2020\virtualandfinal\include\cc1.h
+	<iostream>
+	"BB2.h"
+
+1586817341 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\virtualandfinal\src\bb1.cpp
+	"BB1.h"
+
+1586817987 c:\users\dr. zeb\desktop\cpp\oopspring2020\virtualandfinal\include\bb1.h
+	<iostream>
+	"AA.h"
+
