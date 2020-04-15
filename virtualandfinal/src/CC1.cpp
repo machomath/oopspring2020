@@ -13,5 +13,5 @@ CC1::~CC1()
 
 void CC1::whoAmI()
 {
-    cout << "An object of CC1" << endl;
+    cout << "An object of CC1-" << x << endl;
 }

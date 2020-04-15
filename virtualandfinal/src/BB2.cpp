@@ -11,7 +11,7 @@ BB2::~BB2()
     //dtor
 }
 
-void BB2::whoAmI()
-{
-    cout << "An object of BB2" << endl;
-}
+//void BB2::whoAmI()
+//{
+  //  cout << "An object of BB2" << endl;
+//}

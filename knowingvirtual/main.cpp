@@ -8,6 +8,11 @@ using namespace std;
 
 int main()
 {
+    AA * singlePointer;
+    singlePointer = new BB1(5);
+    singlePointer->whoAmI();
+    (*singlePointer).whoAmI();
+    cout << "------------------" << endl;
     AA * anArray[5];
     anArray[0] = new BB1(0);
     anArray[1] = new CC1(1);

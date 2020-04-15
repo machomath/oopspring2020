@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="include\AA.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="249" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="12" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="287" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="include\BB2.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="14" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="189" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\BB1.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="11" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="143" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="include\CC1.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="9" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="91" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\BB1.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="144" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="src\BB2.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="15" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="116" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

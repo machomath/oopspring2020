@@ -9,7 +9,7 @@ class BB2 : public AA
     public:
         BB2(int);
         ~BB2();
-        void whoAmI();
+        //void whoAmI();
     protected:
 
     private:

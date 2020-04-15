@@ -13,7 +13,7 @@ BB1::~BB1()
 
 void BB1::whoAmI()
 {
-    cout << "An object of BB1" << endl;
+    cout << "An object of BB1-" << x << endl;
 }
 
 //void BB1::whoIsBaseClass()
