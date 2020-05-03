@@ -3,6 +3,7 @@
 #include <iostream>
 #include "Student.h"
 
+using namespace std;
 struct MyNode
 {
     Student stu;
@@ -16,6 +17,7 @@ class MyLinkedList
         MyLinkedList();
         ~MyLinkedList();
         void insertNode(Student, int);
+        string deleteNode(int);
         void printLinkedList();
 
     protected:

@@ -47,3 +47,33 @@ void MyLinkedList::printLinkedList()
         tmp = tmp->next;
     }
 }
+
+string MyLinkedList::deleteNode(int p)
+{
+    if(head == nullptr){
+        return "The list is empty";
+    }
+    if(head->priority == p){
+        MyNode * tmp = head;
+        head = head->next;
+        tmp = nullptr;
+        return "The head node got deleted";
+    }
+    if(head->next != nullptr){
+        MyNode * ptr1 = head;
+        MyNode * ptr2 = head->next;
+        while(ptr2 != nullptr){
+            if(ptr2->priority == p){
+                ptr1->next = ptr2->next;
+                ptr2 = nullptr;
+                return "Node deleted";
+            }else{
+                ptr2 = ptr2->next;
+                ptr1 = ptr1->next;
+            }
+        }
+        return "Node Not Found";
+    }else{
+        return "No such node";
+    }
+}
