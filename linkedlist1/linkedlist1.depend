@@ -1,8 +1,10 @@
 # depslib dependency file v1.0
-1588372748 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\linkedlist1\main.cpp
+1588632245 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\linkedlist1\main.cpp
 	<iostream>
 	"Student.h"
+	"Faculty.h"
 	"MyLinkedList.h"
+	"TemplateLinkedList.h"
 
 1588027604 c:\users\dr. zeb\desktop\cpp\oopspring2020\linkedlist1\include\student.h
 	<iostream>
@@ -16,4 +18,18 @@
 1588371516 c:\users\dr. zeb\desktop\cpp\oopspring2020\linkedlist1\include\mylinkedlist.h
 	<iostream>
 	"Student.h"
+
+1588630097 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\linkedlist1\src\faculty.cpp
+	"Faculty.h"
+
+1588630044 c:\users\dr. zeb\desktop\cpp\oopspring2020\linkedlist1\include\faculty.h
+	<iostream>
+
+1588631715 source:c:\users\dr. zeb\desktop\cpp\oopspring2020\linkedlist1\src\templatelinkedlist.cpp
+	"TemplateLinkedList.h"
+
+1588631777 c:\users\dr. zeb\desktop\cpp\oopspring2020\linkedlist1\include\templatelinkedlist.h
+	<iostream>
+	"Student.h"
+	"Faculty.h"
 
